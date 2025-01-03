@@ -51,7 +51,7 @@ class LianjiaPipeline:
         for file_handle in self.file_handles.values():
             file_handle.close()
 
-        # 数据后处理
+        # 数据第一次预处理
         self.data_preprocessing()
 
     def process_item(self, item, spider):
