@@ -46,6 +46,31 @@ def process_file(file_path, output_path):
     # 删除原来的 house_types 列
     data = data.drop(columns=['house_type'], errors='ignore')
 
+    # 预处理 'orientation' 列，取空格前的方向
+    def preprocess_orientation(orientation):
+        if isinstance(orientation, str):
+            # 提取空格前的部分
+            return orientation.split()[0]
+        return orientation  # 如果不是字符串，直接返回原值
+
+    data['orientation'] = data['orientation'].apply(preprocess_orientation)
+
+    # 预处理 'floor' 列
+    def preprocess_floor(floor_str):
+        # 如果包含 '低楼层'、'中楼层' 或 '高楼层'，则保留
+        if '低楼层' in floor_str:
+            return '低楼层'
+        elif '中楼层' in floor_str:
+            return '中楼层'
+        elif '高楼层' in floor_str:
+            return '高楼层'
+        # 如果是单纯的楼层数字（如 '11层'），丢弃该行
+        return None
+
+    # 应用预处理函数并丢弃无效的行
+    data['floor'] = data['floor'].apply(preprocess_floor)
+    data = data.dropna(subset=['floor'])  # 丢弃没有楼层类型的行
+
     # 确保输出路径存在
     os.makedirs(output_path, exist_ok=True)
 
