@@ -138,12 +138,9 @@ class LianjiaSpider(scrapy.Spider):
         cookies = {
             'lianjia_uuid': '17b79646-5837-435f-846d-9cfff5dfb2c5',
             'select_city': '110000',
-            'lianjia_ssid': 'ccf684a0-3d61-4c18-b478-756a73e9f71a',
             'Hm_lvt_46bf127ac9b856df503ec2dbf942b67e': '1735876759',
             'HMACCOUNT': 'E5B12C20858E845E',
-            '_jzqa': '1.1321930983939710500.1735876759.1735876759.1735876759.1',
             '_jzqc': '1',
-            '_jzqx': '1.1735876759.1735876759.1.jzqsr=google%2Ecom|jzqct=/.-',
             '_jzqckmp': '1',
             '_qzjc': '1',
             'sajssdk_2015_cross_new_user': '1',
@@ -156,12 +153,22 @@ class LianjiaSpider(scrapy.Spider):
             'security_ticket': 'joopZpyD+IrijK7YCx92PF/bhEcT8Ug0P01OMNm/k9xomqQtlWb50+2muV2YbPj/14V7nMRX6YvrZxvr9fS4UQRb6t38DPFInvjsWa2NiymArFi7My9hWGqdszoN0GIeIWLa8RbHS/PQHy8abIQWy3y0vm/ND4CuCvr+CqSU8To=',
             'ftkrc_': '4198a02a-e979-461c-ba74-e35ee841016c',
             'lfrc_': '5d82d9db-829a-412d-8062-05a045b9bc36',
-            'Hm_lpvt_46bf127ac9b856df503ec2dbf942b67e': '1735876817',
-            '_qzja': '1.1744237685.1735876758920.1735876758920.1735876758920.1735876761063.1735876816734.0.0.0.3.1',
-            '_qzjto': '3.1.0',
-            'srcid': 'eyJ0Ijoie1wiZGF0YVwiOlwiYmVkYjY5YTY2NDg0YzAxOTY3YmMyYjk5MjZhNzc2YWVjNjlhYmZmM2UzODIzZjk3YWNlNzZmZmIxNDFjZDRjOTYzMmQxNDE0OWUxMDEyODFlZjZhN2FhNjQ1YzRiNmFkN2FmZjgzZTJkMTIxNTc1MTVmMDA1M2Q3ZjJiOTY2NmI1ZDQ1ZGY0MWRhOTQyNmJmM2QwYTY0NzVlMzE4ZTAzNmM2ZGM4OTU1MTUwZmE1YmVhM2I2NDU0OGQwNzhkOGYzYjkzN2JjMDdhZTJlYTU3ZGZkYjlkODgzYWM2NjE1Y2RkMGI3ODUyMzg4NTlkZTBhY2I0ZmJmNWUxYjY5MWU3OVwiLFwia2V5X2lkXCI6XCIxXCIsXCJzaWduXCI6XCJlMGFmZTUwZVwifSIsInIiOiJodHRwczovL2JqLmxpYW5qaWEuY29tL2Vyc2hvdWZhbmcvIiwib3MiOiJ3ZWIiLCJ2IjoiMC4xIn0=',
-            '_ga_KJTRWRHDL1': 'GS1.2.1735876770.1.1.1735876827.0.0.0',
-            '_ga_QJN1VP0CMS': 'GS1.2.1735876770.1.1.1735876828.0.0.0',
+            'lianjia_ssid': 'a0f78921-44be-4aab-a0b0-5214f3691a45',
+            '_jzqa': '1.1321930983939710500.1735876759.1735880779.1735889846.4',
+            '_jzqx': '1.1735876759.1735889846.3.jzqsr=google%2Ecom|jzqct=/.jzqsr=google%2Ecom|jzqct=/',
+            'Hm_lpvt_46bf127ac9b856df503ec2dbf942b67e': '1735889849',
+            '_qzja': '1.1744237685.1735876758920.1735880779322.1735889845950.1735889845950.1735889848709.0.0.0.7.4',
+            '_qzjb': '1.1735889845950.2.0.0.0',
+            '_qzjto': '7.4.0',
+            '_jzqb': '1.2.10.1735889846.1',
+            'srcid': 'eyJ0Ijoie1wiZGF0YVwiOlwiYmVkYjY5YTY2NDg0YzAxOTY3YmMyYjk5MjZhNzc2YWVjNjlhYmZmM2UzODIzZjk3YWNlNzZmZmIxNDFjZDRjOTYzMmQxNDE0OWUxMDEyODFlZjZhN2FhNjQ1YzRiNmFkN2FmZjgzZTJkMTIxNTc1MTVmMDA1M2Q3ZjJiOTY2NmI1ZDQ1ZGY0MWRhOTQyNmJmM2QwYTY0NzVlMzE4ZTAzNjAwZTEwNDE0ZmY5OTBhNDcxMWE1ODkwMjYwOGJkMDUzZDY0YzU4Y2MwYzExMmRhNzIwM2E2ZTUwOTgwODdhM2U3OGU2YjhlOTczNWI3OWNhYjNlNzU5ZTc5NjJkZDljZFwiLFwia2V5X2lkXCI6XCIxXCIsXCJzaWduXCI6XCJmZGI2YTUyN1wifSIsInIiOiJodHRwczovL2JqLmxpYW5qaWEuY29tL2Vyc2hvdWZhbmcvIiwib3MiOiJ3ZWIiLCJ2IjoiMC4xIn0=',
+            '_gat': '1',
+            '_gat_past': '1',
+            '_gat_global': '1',
+            '_gat_new_global': '1',
+            '_gat_dianpu_agent': '1',
+            '_ga_KJTRWRHDL1': 'GS1.2.1735889858.4.1.1735889859.0.0.0',
+            '_ga_QJN1VP0CMS': 'GS1.2.1735889858.4.1.1735889859.0.0.0',
         }
 
         headers = {
@@ -169,8 +176,8 @@ class LianjiaSpider(scrapy.Spider):
             'Accept-Language': 'zh-CN,zh;q=0.9',
             'Cache-Control': 'max-age=0',
             'Connection': 'keep-alive',
-            # 'Cookie': 'lianjia_uuid=17b79646-5837-435f-846d-9cfff5dfb2c5; select_city=110000; lianjia_ssid=ccf684a0-3d61-4c18-b478-756a73e9f71a; Hm_lvt_46bf127ac9b856df503ec2dbf942b67e=1735876759; HMACCOUNT=E5B12C20858E845E; _jzqa=1.1321930983939710500.1735876759.1735876759.1735876759.1; _jzqc=1; _jzqx=1.1735876759.1735876759.1.jzqsr=google%2Ecom|jzqct=/.-; _jzqckmp=1; _qzjc=1; sajssdk_2015_cross_new_user=1; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221942a514e2c2415-072e92c30a057a-26011851-1638720-1942a514e2d1cff%22%2C%22%24device_id%22%3A%221942a514e2c2415-072e92c30a057a-26011851-1638720-1942a514e2d1cff%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24latest_referrer_host%22%3A%22www.google.com%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%7D%7D; _ga=GA1.2.1127874382.1735876770; _gid=GA1.2.1582632213.1735876770; login_ucid=2000000461197904; lianjia_token=2.00149f9b384283a4840532b209466157ba; lianjia_token_secure=2.00149f9b384283a4840532b209466157ba; security_ticket=joopZpyD+IrijK7YCx92PF/bhEcT8Ug0P01OMNm/k9xomqQtlWb50+2muV2YbPj/14V7nMRX6YvrZxvr9fS4UQRb6t38DPFInvjsWa2NiymArFi7My9hWGqdszoN0GIeIWLa8RbHS/PQHy8abIQWy3y0vm/ND4CuCvr+CqSU8To=; ftkrc_=4198a02a-e979-461c-ba74-e35ee841016c; lfrc_=5d82d9db-829a-412d-8062-05a045b9bc36; Hm_lpvt_46bf127ac9b856df503ec2dbf942b67e=1735876817; _qzja=1.1744237685.1735876758920.1735876758920.1735876758920.1735876761063.1735876816734.0.0.0.3.1; _qzjto=3.1.0; srcid=eyJ0Ijoie1wiZGF0YVwiOlwiYmVkYjY5YTY2NDg0YzAxOTY3YmMyYjk5MjZhNzc2YWVjNjlhYmZmM2UzODIzZjk3YWNlNzZmZmIxNDFjZDRjOTYzMmQxNDE0OWUxMDEyODFlZjZhN2FhNjQ1YzRiNmFkN2FmZjgzZTJkMTIxNTc1MTVmMDA1M2Q3ZjJiOTY2NmI1ZDQ1ZGY0MWRhOTQyNmJmM2QwYTY0NzVlMzE4ZTAzNmM2ZGM4OTU1MTUwZmE1YmVhM2I2NDU0OGQwNzhkOGYzYjkzN2JjMDdhZTJlYTU3ZGZkYjlkODgzYWM2NjE1Y2RkMGI3ODUyMzg4NTlkZTBhY2I0ZmJmNWUxYjY5MWU3OVwiLFwia2V5X2lkXCI6XCIxXCIsXCJzaWduXCI6XCJlMGFmZTUwZVwifSIsInIiOiJodHRwczovL2JqLmxpYW5qaWEuY29tL2Vyc2hvdWZhbmcvIiwib3MiOiJ3ZWIiLCJ2IjoiMC4xIn0=; _ga_KJTRWRHDL1=GS1.2.1735876770.1.1.1735876827.0.0.0; _ga_QJN1VP0CMS=GS1.2.1735876770.1.1.1735876828.0.0.0',
-            'Referer': 'https://bj.lianjia.com/ershoufang/',
+            # 'Cookie': 'lianjia_uuid=17b79646-5837-435f-846d-9cfff5dfb2c5; select_city=110000; Hm_lvt_46bf127ac9b856df503ec2dbf942b67e=1735876759; HMACCOUNT=E5B12C20858E845E; _jzqc=1; _jzqckmp=1; _qzjc=1; sajssdk_2015_cross_new_user=1; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221942a514e2c2415-072e92c30a057a-26011851-1638720-1942a514e2d1cff%22%2C%22%24device_id%22%3A%221942a514e2c2415-072e92c30a057a-26011851-1638720-1942a514e2d1cff%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24latest_referrer_host%22%3A%22www.google.com%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%7D%7D; _ga=GA1.2.1127874382.1735876770; _gid=GA1.2.1582632213.1735876770; login_ucid=2000000461197904; lianjia_token=2.00149f9b384283a4840532b209466157ba; lianjia_token_secure=2.00149f9b384283a4840532b209466157ba; security_ticket=joopZpyD+IrijK7YCx92PF/bhEcT8Ug0P01OMNm/k9xomqQtlWb50+2muV2YbPj/14V7nMRX6YvrZxvr9fS4UQRb6t38DPFInvjsWa2NiymArFi7My9hWGqdszoN0GIeIWLa8RbHS/PQHy8abIQWy3y0vm/ND4CuCvr+CqSU8To=; ftkrc_=4198a02a-e979-461c-ba74-e35ee841016c; lfrc_=5d82d9db-829a-412d-8062-05a045b9bc36; lianjia_ssid=a0f78921-44be-4aab-a0b0-5214f3691a45; _jzqa=1.1321930983939710500.1735876759.1735880779.1735889846.4; _jzqx=1.1735876759.1735889846.3.jzqsr=google%2Ecom|jzqct=/.jzqsr=google%2Ecom|jzqct=/; Hm_lpvt_46bf127ac9b856df503ec2dbf942b67e=1735889849; _qzja=1.1744237685.1735876758920.1735880779322.1735889845950.1735889845950.1735889848709.0.0.0.7.4; _qzjb=1.1735889845950.2.0.0.0; _qzjto=7.4.0; _jzqb=1.2.10.1735889846.1; srcid=eyJ0Ijoie1wiZGF0YVwiOlwiYmVkYjY5YTY2NDg0YzAxOTY3YmMyYjk5MjZhNzc2YWVjNjlhYmZmM2UzODIzZjk3YWNlNzZmZmIxNDFjZDRjOTYzMmQxNDE0OWUxMDEyODFlZjZhN2FhNjQ1YzRiNmFkN2FmZjgzZTJkMTIxNTc1MTVmMDA1M2Q3ZjJiOTY2NmI1ZDQ1ZGY0MWRhOTQyNmJmM2QwYTY0NzVlMzE4ZTAzNjAwZTEwNDE0ZmY5OTBhNDcxMWE1ODkwMjYwOGJkMDUzZDY0YzU4Y2MwYzExMmRhNzIwM2E2ZTUwOTgwODdhM2U3OGU2YjhlOTczNWI3OWNhYjNlNzU5ZTc5NjJkZDljZFwiLFwia2V5X2lkXCI6XCIxXCIsXCJzaWduXCI6XCJmZGI2YTUyN1wifSIsInIiOiJodHRwczovL2JqLmxpYW5qaWEuY29tL2Vyc2hvdWZhbmcvIiwib3MiOiJ3ZWIiLCJ2IjoiMC4xIn0=; _gat=1; _gat_past=1; _gat_global=1; _gat_new_global=1; _gat_dianpu_agent=1; _ga_KJTRWRHDL1=GS1.2.1735889858.4.1.1735889859.0.0.0; _ga_QJN1VP0CMS=GS1.2.1735889858.4.1.1735889859.0.0.0',
+            'Referer': 'https://bj.lianjia.com/',
             'Sec-Fetch-Dest': 'document',
             'Sec-Fetch-Mode': 'navigate',
             'Sec-Fetch-Site': 'same-origin',
@@ -199,7 +206,7 @@ class LianjiaSpider(scrapy.Spider):
         directions = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[3]/div/text()').getall()
         prices = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[6]/div[1]/span/text()').getall()
         price_per_m_s = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[6]/div[2]/span/text()').getall()
-        positions = response.xpath('//*[@id="positionInfo"]/div[1]/ul/li/div[1]/div[2]/div/a[2]/text()').getall()
+        positions = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[2]/div/a[2]/text()').getall()
         followers = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[4]/text()').getall()
 
         for title, direction, price, price_per_m, position, follower in zip(titles, directions, prices, price_per_m_s,
