@@ -199,7 +199,7 @@ class LianjiaSpider(scrapy.Spider):
         directions = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[3]/div/text()').getall()
         prices = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[6]/div[1]/span/text()').getall()
         price_per_m_s = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[6]/div[2]/span/text()').getall()
-        positions = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[2]/div/a[2]/text()').getall()
+        positions = response.xpath('//*[@id="positionInfo"]/div[1]/ul/li/div[1]/div[2]/div/a[2]/text()').getall()
         followers = response.xpath('//*[@id="content"]/div[1]/ul/li/div[1]/div[4]/text()').getall()
 
         for title, direction, price, price_per_m, position, follower in zip(titles, directions, prices, price_per_m_s,
